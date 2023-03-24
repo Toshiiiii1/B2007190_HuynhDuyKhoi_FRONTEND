@@ -25,7 +25,6 @@
         methods: {
             async addContact(data) {
                 try {
-                    console.log(data);
                     await ContactService.create(data);
                     this.message = "Liên hệ được thêm thành công";
                 } catch (error) {

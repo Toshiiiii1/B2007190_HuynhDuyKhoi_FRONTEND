@@ -18,7 +18,7 @@ const routes = [
 		path: "/add",
 		name: "contact.add",
 		component: () => import("@/views/ContactAdd.vue"),
-		props: true,
+		props: true
 	},
 ];
 const router = createRouter({
